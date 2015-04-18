@@ -51,7 +51,7 @@ true               //note that superDuperSlow did not run
 ## Inputs
 Empty arrays or failing to provide a valid callback immediately resolve as false.
 ```javascript
-anySeries([]).then( (data) => {
+anySeries([]).then(function(data) {
   console.log(results); //false
 });
 ```
