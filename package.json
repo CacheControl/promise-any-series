@@ -1,0 +1,26 @@
+{
+  "name": "promise-any-series",
+  "version": "0.0.1",
+  "description": "Given an array of methods that return promises, execute in series and return true if any satisfy a test.",
+  "contributors": {
+    "name": "Cache Hamm",
+    "email": "cdhamm@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "dependencies": {
+    "es6-promise": "^2.0.1",
+    "promise-series-node": "0.0.1"
+  },
+  "repository": "https://github.com/cdhamm/promise-any-series",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1"
+  },
+  "keywords": [
+    "promises",
+    "any"
+  ]
+}
