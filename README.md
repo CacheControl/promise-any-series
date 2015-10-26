@@ -1,4 +1,5 @@
 # Promise Any Series
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 Given an array of methods that return promises, execute in series and return true if any satisfy a test.
 
